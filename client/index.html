@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>STELLA</title>
+</head>
+<body style="padding: 0; margin: 0; background-color: #000000">
+	<div id="instructions" style="text-align: center; color: #00FF00; font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif">
+		<p>Welcome to Stella</p>
+		<p>Controls:</p>
+			<li>Click and drag to draw lines between stars</li>
+			<li>Release left mouse button to add a line to the shared constellation</li>
+			<li>Press backspace to delete the most recent line</li>
+			<li>Press n for a new galaxy</li>
+			<li>Press ESC to toggle instructions</li>
+	</div>
+	<canvas id="sky"
+	style = 
+	"padding: 0;
+	margin: auto;
+	display: block;
+	"></canvas>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="game.js"></script>
+</body>
+</html>
